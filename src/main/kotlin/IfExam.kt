@@ -2,11 +2,12 @@ package com.ll
 
 class IfExam
 
-    fun main(){
-        val number = 11
+fun main(){
 
-        var result = if(number%2 ==0) "Even number" else "Odd number"
+       val number = 15
 
-        println(result)
-    }
+       var result = if(number %2 == 0) "even number" else "odd number"
 
+       println(result)
+
+   }
